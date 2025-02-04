@@ -80,11 +80,8 @@ A Direct Address Table is a simple way to map a key to its value using an array.
 Write a program to implement a Direct Address Table for integer keys ranging from 0 to n-1. You need to support the following operations:
 <br>
 Insert (key, value): Insert a value at the given key.
-<br>
 Search (key): Retrieve the value associated with the given key.
-<br>
 Delete (key): Remove the value associated with the given key.
-<br>
 Input:
 <br>
 The first line contains an integer n (the size of the table).
