@@ -71,3 +71,86 @@ Move disk 2 from A to C
 <br>
 Move disk 1 from B to C
 <br>
+Question - 09
+<br>
+Problem Statement:
+<br>
+A Direct Address Table is a simple way to map a key to its value using an array. The index of the array represents the key, and the value at that index represents the data associated with the key.
+<br>
+Write a program to implement a Direct Address Table for integer keys ranging from 0 to n-1. You need to support the following operations:
+<br>
+Insert (key, value): Insert a value at the given key.
+<br>
+Search (key): Retrieve the value associated with the given key.
+<br>
+Delete (key): Remove the value associated with the given key.
+<br>
+Input:
+<br>
+The first line contains an integer n (the size of the table).
+<br>
+The second line contains an integer q (the number of queries).
+<br>
+Each of the next q lines contains a query in one of the following formats:
+<br>
+- INSERT key value: Insert value at the position key.
+- <br>
+- SEARCH key: Retrieve the value at the position key. If the key does not exist, return ""NOT FOUND"".
+- <br>
+- DELETE key: Remove the value at the position key.
+- <br>
+
+Output:
+<br>
+For each SEARCH query, output the value associated with the key or ""NOT FOUND"" if the key does not exist.
+<br>
+
+Example:
+<br>
+Input:
+<br>
+5
+<br>
+6
+<br>
+INSERT 2 100
+<br>
+INSERT 3 200
+<br>
+SEARCH 2
+<br>
+DELETE 2
+<br>
+SEARCH 2
+<br>
+SEARCH 3
+<br>
+
+Output:
+<br>
+100
+<br>
+NOT FOUND
+<br>
+200
+<br>
+
+Explanation:
+<br>
+
+After INSERT 2 100, the table looks like: [None, None, 100, None, None].
+<br>
+After INSERT 3 200, the table looks like: [None, None, 100, 200, None].
+<br>
+SEARCH 2 retrieves the value 100.
+<br>
+DELETE 2 removes the value at key 2. The table becomes [None, None, None, 200, None].
+<br>
+SEARCH 2 now returns ""NOT FOUND"".
+<br>
+SEARCH 3 retrieves the value 200.
+<br>
+This problem tests the understanding of direct address tables and basic hashing concepts.
+<br>
+
+
