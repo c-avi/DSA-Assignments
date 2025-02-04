@@ -91,11 +91,8 @@ The second line contains an integer q (the number of queries).
 Each of the next q lines contains a query in one of the following formats:
 <br>
 - INSERT key value: Insert value at the position key.
-- <br>
 - SEARCH key: Retrieve the value at the position key. If the key does not exist, return ""NOT FOUND"".
-- <br>
 - DELETE key: Remove the value at the position key.
-- <br>
 
 Output:
 <br>
