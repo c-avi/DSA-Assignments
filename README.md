@@ -146,7 +146,7 @@ SEARCH 3 retrieves the value 200.
 <br>
 This problem tests the understanding of direct address tables and basic hashing concepts.
 <br>
-Question - 21
+Question - 11
 Problem:
 
 Given a 2D matrix, rotate it 90 degrees clockwise.
